@@ -1,0 +1,4 @@
+This chapter contains the source code for deploying a VPC AWS Production Account using the same configuration as your Development Account. You will use CloudFormation to provision a VPC with six subnets - two public subnets and four private (two of which would be used for your backend application stack and two for your database)
+Your CloudFormation template will also provision route tables, a NAT Gateway in 1 AZ and the security group configurations to immitate the same configuration you have manually defined in the AWS Development Account where you have now already deployed your Todo List Application.
+This project task is designed to help you appreciate how quickly you can start to build your production workloads using AWS CloudFormation
+We strongly recommend that after you complete the project task, you delete the CloudFormation stack to ensure you do not incur any unecessary charges.
